@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #d4962a;
+  padding: 0; /* Sin espacio por arriba o abajo */
+}
+
+#navbar a {
+  flex: 1; /* Los elementos ocupan el mismo espacio */
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0; /* Altura de la barra */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#navbar a:hover {
+  background-color: #f5ba56;
+  color: #fff; /* Cambia el color del texto al pasar el cursor */
+}
