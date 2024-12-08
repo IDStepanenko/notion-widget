@@ -1,0 +1,36 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos del menú */
+.navMenu {
+  font-family: "Lato", sans-serif;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navMenu a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px;
+}
+
+.background {
+  background-color: #cb9650;
+}
+
+.border {
+  border: 0px solid #cb9650;
+}
+
+/* Estilo al pasar el mouse */
+.navMenu a:hover {
+  color: #f0daae;
+}
